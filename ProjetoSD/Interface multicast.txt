@@ -1,0 +1,6 @@
+findPessoa(num_cc)-> procura a pessoa com esse cc, se existe devolve a pessoa, se não devolve null - DONE
+
+getEleicao(departamento)-> o server multicast tem o mesmo nome que o departamento, o rmi devolve todas as eleições que estejam a decorrer desse departamento
+
+saveVote(vote)-> recebe o voto vindo do servidor multicast e guarda
+

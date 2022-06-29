@@ -1,0 +1,2 @@
+1 -> BUG: Se entrar para votar e não votar e entrares mais tarde para votar e votares ficam 2 votos na BD
+ SOLUÇÃO: Na função recebeLocalVoto() do RMI verificar se existe um voto com aquela informação e depois

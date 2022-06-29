@@ -1,0 +1,31 @@
+Pessoa:
+nome
+password
+função (estudante, docente, funcionário)
+departamento/faculdade
+contacto telefónico
+morada
+nº cc
+validade cc
+
+Eleição:
+data de início
+data de fim
+título
+descrição
+tipo/categoria
+departamento(s)/faculdade(s)
+candidatos
+resultado
+
+Candidato:
+nome
+tipo/categoria
+pessoas
+
+Voto:
+nome
+nº cc
+local de voto
+hora de voto
+

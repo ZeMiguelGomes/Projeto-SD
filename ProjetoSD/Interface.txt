@@ -1,0 +1,59 @@
+Admin
+
+registar pessoas:
+Pessoa
+
+criar eleição:
+Eleição
+
+listar votos(todos):
+Pessoa
+
+estado das mesas e terminais de voto:
+
+get stats:
+Eleição
+
+terminar eleição:
+Eleição
+
+listar resultados passados:
+Eleição
+
+
+Eleição:
+
+adicionar candidato:
+Eleição
+Candidato
+
+remover candidato:
+Eleição
+Candidato
+
+adicionar mesa de voto:
+Eleição
+departamento/local
+
+remover mesa de voto:
+Eleição
+departamento/local
+
+alterar título:
+Eleição
+título
+
+alterar descrição:
+Eleição
+descrição
+
+alterar data de início:
+Eleição
+data de início
+
+alterar data de fim:
+Eleição
+data de fim
+
+
+

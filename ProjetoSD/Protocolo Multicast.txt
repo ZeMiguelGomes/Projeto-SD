@@ -1,0 +1,12 @@
+type|term_fetch (Enviado pelo servidor para encontrar um terminal disponível)
+type|term_ready;term|term_id (Enviado pelos terminais disponíveis para o servidor multicast)
+type|term_unlock;term|term_id;user|n_cc; (Enviado pelo servidor a um terminal disponível)
+
+type|login_request;term|term_id;n_cc|cc_input;password|pass_input (Enviada pelo terminal desbloqueado ao servidor para autenticar o utilizador)
+type|login_accept;term|term_id (Enviada pelo servidor ao terminal que pediu autenticação de um utilizador e os dados estavam corretos)
+type|login_deny;term|term_id (Enviada pelo servidor ao terminal que pediu autenticação de um utilizador e os dados estavam incorretos)
+type|user_voted;elec_name|name;user|n_cc (Enviado pelo terminal para o servidor saber que o utilizador votou)
+
+type|send_elec;elec_name|name;item_count|n;item_n|list_name (Enviado pelo servidor ao terminal)
+type|send_vote;elec_name|name;vote|list_name (Enviado pelos terminais quando um utilizador subemeter o seu voto)
+
